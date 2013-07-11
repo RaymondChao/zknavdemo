@@ -1,0 +1,29 @@
+<window title="Inbox" border="normal" hflex="min" >
+	<listbox width="438px">
+		<listhead>
+			<listheader width="36px" align="center" iconSclass="z-icon-info" />
+			<listheader width="200px" align="center" label="Event"/>
+			<listheader width="200px" align="center" label="Date"/>
+		 </listhead>
+		<listitem height="36px">
+			<listcell iconSclass="z-icon-exclamation"/>
+			<listcell label="MOM IS COMING" />
+			<listcell label="2013/07/02 17:41:29" />
+		</listitem>
+		<listitem height="36px">
+			<listcell />
+			<listcell label="Window is closed" />
+			<listcell label="2013/06/11 15:56:37" />
+		</listitem>
+		<listitem height="36px">
+			<listcell iconSclass="z-icon-star"/>
+			<listcell label="Belly Rock Released" />
+			<listcell label="2013/05/26 13:23:07" />
+		</listitem>
+		<listitem height="36px">
+			<listcell />
+			<listcell label="Jake Disappeared" />
+			<listcell label="2012/12/03 10:26:37" />
+		</listitem>
+	</listbox>
+</window>

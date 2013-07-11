@@ -1,0 +1,16 @@
+<window title="Wash the Car" border="normal" hflex="min" >
+	<hlayout width="438px">
+		<image src="imgs/car.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Aug 8, 2013" />
+			<space/>
+			Preparation:
+			<checkbox label="Brush" />
+			<checkbox label="Bucket" checked="true"/>
+			<checkbox label="Soap" checked="true"/>
+			<checkbox label="Towel" />
+			<checkbox label="Wax" />
+		</vbox>
+	</hlayout>
+</window>

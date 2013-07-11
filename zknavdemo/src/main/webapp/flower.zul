@@ -1,0 +1,17 @@
+<window title="Plant Flowers" border="normal" hflex="min" >
+	<hlayout width="438px">
+		<image src="imgs/flower.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Aug 22, 2013" />
+			<space/>
+			<label value="Mostly Cloudy" />
+			<space/>
+			<label value="65°F" />
+			<space/>
+			<label value="H92°" />
+			<space/>
+			<label value="L81°" />
+		</vbox>
+	</hlayout>
+</window>

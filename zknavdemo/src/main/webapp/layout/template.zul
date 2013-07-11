@@ -1,0 +1,41 @@
+<zk>
+	<borderlayout hflex="1" vflex="1" apply="org.zkoss.zknavdemo.NavController">
+		<north height="100px" border="none" >
+			<div hflex="1" vflex="1" sclass="banner">
+				<hbox hflex="1" vflex="1" align="center">
+					<div width="400px">
+						<label value="Zotebook" sclass="banner-head"/>
+					</div>
+				</hbox>
+			</div>
+		</north>
+		<west width="300px" border="none">
+			<navbar id="sidebar" orient="vertical">
+				<navitem label="Inbox" iconSclass="z-icon-inbox" />
+				<navitem label="Create New Task" iconSclass="z-icon-pencil"/>
+				<nav label="Next Actions" iconSclass="z-icon-th-list" detailed="true">
+						<navitem label="Rescue the Baby" iconSclass="z-icon-star"/>
+						<navitem label="Play Darts" />
+						<navitem label="Plant Flowers" />
+						<navitem label="Wash the Car" iconSclass="z-icon-star"/>
+				</nav>
+				<nav label="Someday" iconSclass="z-icon-tasks" detailed="true">
+						<navitem label="Say Hi to the Soldier"/>
+						<navitem label="Hide and Seek" />
+				</nav>
+				<nav label="Done" iconSclass="z-icon-archive">
+						<navitem label="Go to the Park" disabled="true"/>
+						<navitem label="Badminton Game" disabled="true"/>
+						<navitem label="Buy the Ticket" disabled="true"/>
+						<navitem label="Return the U-Bike" disabled="true"/>
+				</nav>
+			</navbar>
+		</west>
+		<center id="mainContent" autoscroll="true" border="none" self="@insert(content)">
+			<!-- the main content will be insert to here -->
+		</center>
+		<south height="50px" border="none">
+			<include src="layout/footer.zul"/>
+		</south>
+	</borderlayout>
+</zk>

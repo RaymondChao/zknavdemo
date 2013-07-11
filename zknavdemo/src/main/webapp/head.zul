@@ -1,0 +1,11 @@
+<window title="Buy the Aspirin" border="normal" hflex="min" >
+	<hlayout width="438px">
+		<image src="imgs/head.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Oct 2, 2013" />
+			<space/>
+			<iframe width="200" height="200" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;sll=33.294892,-96.597619&amp;sspn=60.919326,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=%E7%B4%90%E7%B4%84+New+York,+%E7%B4%90%E7%B4%84%E6%9B%BC%E5%93%88%E9%A0%93&amp;t=m&amp;ll=40.79029,-73.959703&amp;spn=0.012997,0.01708&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+		</vbox>
+	</hlayout>
+</window>

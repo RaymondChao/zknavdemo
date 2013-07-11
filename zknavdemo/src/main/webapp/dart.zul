@@ -1,0 +1,37 @@
+<window title="Play Darts" border="normal" hflex="min">
+	<hlayout width="438px">
+		<image src="imgs/dart.jpg" style="width:200px" />
+		<space />
+		<vbox pack="center">
+			<label value="Due Date: Jul 11, 2013" />
+			<space />
+			<listbox width="203px">
+				<listhead>
+					<listheader width="48px" align="center" label="No." />
+					<listheader width="152px" align="center"
+						label="Score" />
+				</listhead>
+				<listitem height="36px">
+					<listcell label="1" />
+					<listcell label="652" />
+				</listitem>
+				<listitem height="36px">
+					<listcell label="2" />
+					<listcell label="147" />
+				</listitem>
+				<listitem height="36px">
+					<listcell label="3" />
+					<listcell />
+				</listitem>
+				<listitem height="36px">
+					<listcell label="4" />
+					<listcell />
+				</listitem>
+				<listitem height="36px">
+					<listcell label="5" />
+					<listcell />
+				</listitem>
+			</listbox>
+		</vbox>
+	</hlayout>
+</window>

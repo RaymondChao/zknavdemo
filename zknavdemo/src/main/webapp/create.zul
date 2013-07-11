@@ -1,0 +1,17 @@
+<window title="New Task" border="normal" hflex="min" >
+	<vlayout width="438px">
+		<textbox  width="430px" height="20px" />
+		<hlayout>
+			Tag:
+			<listbox mold="select" tabindex="6">
+				<listitem />
+				<listitem label="Next Actions" />
+				<listitem label="Someday" />
+			</listbox>         
+			<space width="16px"/>
+			 Due Date: <datebox/>
+			<space width="20px"/>
+			<button label="Add"/>
+		</hlayout>
+	</vlayout>
+</window>

@@ -1,0 +1,10 @@
+<window title="Be a Model" border="normal" hflex="min" >
+	<hlayout width="438px">
+		<image src="imgs/model.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Dec 24, 2013" />
+			<space/>
+		</vbox>
+	</hlayout>
+</window>

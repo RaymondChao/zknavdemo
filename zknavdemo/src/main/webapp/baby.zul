@@ -1,0 +1,11 @@
+<window title="Rescue the Baby" border="normal" hflex="min" >
+	<hlayout width="438px">
+		<image src="imgs/baby.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Jul 7, 2013" />
+			<space/>
+			<textbox rows="10" value="Notes:" width="200px"/>
+		</vbox>
+	</hlayout>
+</window>

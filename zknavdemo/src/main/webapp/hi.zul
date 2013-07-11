@@ -1,0 +1,22 @@
+<window title="Say Hi to the Soldier" border="normal" hflex="min">
+	<hlayout width="438px">
+		<image src="imgs/soldier.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Nov 11, 2013" />
+			<space/>
+			<radiogroup id="hi"/>
+			<radio label="Hi" radiogroup="hi" />
+			<space/>
+			<radio label="Ni How Ma" radiogroup="hi" />
+			<space/>
+			<radio label="Bonjour" radiogroup="hi" />
+			<space/>
+			<radio label="Ciao" radiogroup="hi" />
+			<space/>
+			<radio label="Hola" radiogroup="hi" />
+			<space/>
+			<radio label="Hallo" radiogroup="hi" />
+		</vbox>
+	</hlayout>
+</window>

@@ -1,0 +1,15 @@
+<window title="Hide and Seek" border="normal" hflex="min" 
+	apply="org.zkoss.bind.BindComposer"
+    viewModel="@id('vm') @init('org.zkoss.zknavdemo.CatVM')">
+	<hlayout width="438px">
+		<image src="imgs/cat.jpg" style="width:200px"/>
+		<space/>
+		<vbox pack="center">
+			<label value="Due Date: Sep 1, 2013" />
+			<space/>
+			<chart id="catchart" title="Possible Position"
+			     width="210" height="210" paneColor="#ffffff" fgAlpha="192"
+			     type="pie" model="@bind(vm.model)" engine="@bind(vm.engine)"/>
+		</vbox>
+	</hlayout>
+</window>
