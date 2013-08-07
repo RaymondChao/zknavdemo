@@ -1,0 +1,62 @@
+div.z-window-header  {
+	margin-left: 32px;
+	background-color: #102d35;
+	color: #FFF;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+div.z-window {
+	background-color: #102d35;
+}
+.banner {
+	background-color: #102d35;
+	color: white;
+	padding: 5px 10px
+}
+
+.banner-head {
+	font-family: Helvetica;
+	margin-left: 16px;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: 8px;
+	cursor: default;
+}
+
+.footer {
+	background-color: #102d35;
+	color: white;
+	padding-top: 5px;
+}
+
+.z-center {
+	margin-top: 16px;
+}
+
+.z-navbar {
+	margin: 16px;
+}
+.z-nav-info {
+	background: #555555;
+	float: right;
+	margin-right: 16px;
+	font-size: 9px;
+	margin-top: 4px;
+}
+.z-navbar-vertical .z-nav-content:before {
+	background: #102d35;
+}
+.z-navbar-vertical .z-navitem-selected .z-navitem-content {
+	background: #102d35;
+}
+.z-navbar-vertical .z-navitem-selected:hover .z-navitem-content {
+	background: #102d35;
+}
+.z-navitem-content[disabled] span {
+	text-decoration: line-through;
+}
+
+body {
+	font-family: Sans-serif;
+	letter-spacing: 1px;
+}
