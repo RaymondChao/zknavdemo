@@ -9,7 +9,7 @@
 				</hbox>
 			</div>
 		</north>
-		<west width="300px" border="none">
+		<west width="240px" border="none">
 			<navbar id="sidebar" orient="vertical">
 				<navitem label="Inbox" iconSclass="z-icon-inbox" />
 				<navitem label="Create New Task" iconSclass="z-icon-pencil"/>
@@ -31,9 +31,7 @@
 				</nav>
 			</navbar>
 		</west>
-		<center id="mainContent" autoscroll="true" border="none" self="@insert(content)">
-			<!-- the main content will be insert to here -->
-		</center>
+		<center id="mainContent" autoscroll="true" border="none" self="@insert(content)"></center>
 		<south height="50px" border="none">
 			<include src="layout/footer.zul"/>
 		</south>
