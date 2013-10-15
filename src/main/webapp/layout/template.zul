@@ -1,6 +1,6 @@
 <zk>
 	<borderlayout hflex="1" vflex="1" apply="org.zkoss.zknavdemo.NavController">
-		<north height="100px" border="none" >
+		<north height="200px" border="none" >
 			<div hflex="1" vflex="1" sclass="banner">
 				<hbox hflex="1" vflex="1" align="center">
 					<div width="400px">
@@ -13,13 +13,13 @@
 			<navbar id="sidebar" orient="vertical">
 				<navitem label="Inbox" iconSclass="z-icon-inbox" />
 				<navitem label="Create New Task" iconSclass="z-icon-pencil"/>
-				<nav label="Next Actions" iconSclass="z-icon-th-list" detailed="true">
+				<nav label="Next Actions" iconSclass="z-icon-th-list" badgeText="4">
 						<navitem label="Rescue the Baby" iconSclass="z-icon-star"/>
 						<navitem label="Play Darts" />
 						<navitem label="Plant Flowers" />
 						<navitem label="Wash the Car" iconSclass="z-icon-star"/>
 				</nav>
-				<nav label="Someday" iconSclass="z-icon-tasks" detailed="true">
+				<nav label="Someday" iconSclass="z-icon-tasks" badgeText="2">
 						<navitem label="Say Hi to the Soldier"/>
 						<navitem label="Hide and Seek" />
 				</nav>

@@ -1,15 +1,17 @@
 div.z-window-header  {
 	margin-left: 32px;
-	background-color: #102d35;
 	color: #FFF;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
-div.z-window {
+div.z-window,
+div.z-window-header,
+.banner,
+.footer
+ {
 	background-color: #102d35;
 }
 .banner {
-	background-color: #102d35;
 	color: white;
 	padding: 5px 10px
 }
@@ -24,9 +26,9 @@ div.z-window {
 }
 
 .footer {
-	background-color: #102d35;
 	color: white;
 	padding-top: 5px;
+	padding-left: 20px
 }
 
 .z-center {
@@ -38,18 +40,16 @@ div.z-window {
 }
 .z-nav-info {
 	background: #555555;
-	float: right;
-	margin-right: 16px;
-	font-size: 9px;
-	margin-top: 4px;
 }
-.z-navbar-vertical .z-nav-content:before {
-	background: #102d35;
-}
-.z-navbar-vertical .z-navitem-selected .z-navitem-content {
-	background: #102d35;
-}
-.z-navbar-vertical .z-navitem-selected:hover .z-navitem-content {
+.z-navbar-vertical .z-nav-content:before,
+.z-navbar-vertical .z-navitem-selected .z-navitem-content,
+.z-navbar-vertical .z-navitem-selected:hover .z-navitem-content,
+.z-navbar-horizontal .z-nav-content:before,
+.z-navbar-horizontal .z-navitem-selected .z-navitem-content,
+.z-navbar-horizontal .z-navitem-selected:hover .z-navitem-content,
+.z-navbar-collapsed > ul > .z-navitem-selected:hover >.z-navitem-content,
+.z-nav-popup .z-navitem-selected .z-navitem-content,
+.z-nav-popup .z-navitem-selected:hover .z-navitem-content  {
 	background: #102d35;
 }
 .z-navitem-content[disabled] span {

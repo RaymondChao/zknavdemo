@@ -1,2 +1,7 @@
-<div hflex="1" vflex="1" sclass="footer">
-</div>
+<box hflex="1" vflex="1" sclass="footer" pack="center" >
+	<checkbox label="Set Navbar to be Collapsed.">
+		<attribute name="onCheck">
+			sidebar.collapsed = self.checked;
+		</attribute>
+	</checkbox>
+</box>
