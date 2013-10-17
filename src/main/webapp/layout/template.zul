@@ -13,6 +13,7 @@
 			<navbar id="sidebar" orient="vertical">
 				<navitem label="Inbox" iconSclass="z-icon-inbox" />
 				<navitem label="Create New Task" iconSclass="z-icon-pencil"/>
+				<navseparator/>
 				<nav label="Next Actions" iconSclass="z-icon-th-list" badgeText="4">
 						<navitem label="Rescue the Baby" iconSclass="z-icon-star"/>
 						<navitem label="Play Darts" />
